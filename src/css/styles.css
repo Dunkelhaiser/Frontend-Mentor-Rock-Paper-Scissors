@@ -6,3 +6,5 @@
 @import "./components/header";
 @import "./components/choice";
 @import "./components/moveButton";
+@import "./components/button";
+@import "./components/modal";

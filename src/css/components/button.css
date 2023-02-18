@@ -1,0 +1,19 @@
+button {
+    cursor: pointer;
+
+    padding: 1em 2em;
+
+    color: hsl(349deg 71% 52%);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    background-color: var(--white);
+    border: none;
+    border-radius: 0.5em;
+
+    transition: translate 0.3s;
+
+    &:hover {
+        translate: 0 -2px 0;
+    }
+}

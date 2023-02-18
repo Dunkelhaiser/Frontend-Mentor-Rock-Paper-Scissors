@@ -5,8 +5,8 @@
     align-items: center;
     justify-content: center;
 
-    width: 180px;
-    height: 180px;
+    aspect-ratio: 1/1;
+    width: 40%;
     padding: 2rem;
 
     border: 24px solid transparent;
@@ -28,5 +28,14 @@
 
     &.rock {
         background: linear-gradient(white, white) padding-box, var(--rock) border-box;
+    }
+
+    img {
+        min-width: 12px;
+    }
+
+    @media (--phone) {
+        width: 40%;
+        height: 40%;
     }
 }

@@ -7,6 +7,8 @@
         <meta name="description" content="Frontend Mentor Rock Paper Scissors Game Challange." />
         <title>Frontend Mentor | Rock Paper Scissors</title>
         <link rel="stylesheet" href="./src/css/styles.css" />
+        <script src="./src/ts/index.ts" type="module" defer></script>
+        <script src="./src/ts/modalWindows.ts" type="module" defer></script>
     </head>
     <body>
         <main>
@@ -18,10 +20,31 @@
                 </div>
             </header>
             <section class="choice">
-                <div class="moveButton paper"><img src="./src/images/icon-paper.svg" /></div>
-                <div class="moveButton scissors"><img src="./src/images/icon-scissors.svg" /></div>
-                <div class="moveButton rock"><img src="./src/images/icon-rock.svg" /></div>
+                <div class="moveButton paper" id="paper"><img src="./src/images/icon-paper.svg" alt="Paper" /></div>
+                <div class="moveButton scissors" id="scissors"><img src="./src/images/icon-scissors.svg" alt="Scissors" /></div>
+                <div class="moveButton rock" id="rock"><img src="./src/images/icon-rock.svg" alt="Rock" /></div>
             </section>
+            <section class="results none">
+                <div class="move">
+                    <h3>You picked</h3>
+                    <div class="moveButton" id="userMove"><img src="./src/images/icon-paper.svg" alt="Paper" /></div>
+                </div>
+                <div class="result">
+                    <h2>You win</h2>
+                    <button>Play again</button>
+                </div>
+                <div class="move">
+                    <h3>Computer picked</h3>
+                    <div class="moveButton" id="pcMove"><img src="./src/images/icon-paper.svg" alt="Paper" /></div>
+                </div>
+            </section>
+            <div class="overlay hidden"></div>
+            <div class="modal_window hidden">
+                <h2>Rules</h2>
+                <div class="content"><img src="./src/images/image-rules.svg" alt="Rules" /></div>
+                <a class="close_modal">&times;</a>
+            </div>
+            <button class="rules_btn">Rules</button>
             <!-- <div class="attribution">
                 Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
                 <a href="#">Tymchyshyn Kyrylo</a>.
