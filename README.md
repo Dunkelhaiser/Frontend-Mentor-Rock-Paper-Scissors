@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 -   Solution URL: [GitHub](https://github.com/KaeserOfHonour/Frontend-Mentor-Rock-Paper-Scissors)
--   Live Site URL: [Netlify](https://frontend-mentor-smug-rock-paper-scissors.netlify.app)
+-   Live Site URL: [Netlify](https://frontend-mentor-smug-rock-paper-sciss.netlify.app)
 
 ## My process
 
