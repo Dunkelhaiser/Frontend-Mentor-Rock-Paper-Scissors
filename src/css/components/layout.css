@@ -1,0 +1,12 @@
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    padding: 3rem;
+
+    width: 100vw;
+    height: 100vh;
+
+    background: var(--radial-gradient);
+}

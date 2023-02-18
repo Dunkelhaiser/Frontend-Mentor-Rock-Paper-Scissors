@@ -1,0 +1,39 @@
+header.score {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    max-width: 700px;
+    padding: 1rem 1.875rem;
+
+    border: 1px solid var(--white);
+    border-radius: 1rem;
+
+    div.score {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        width: 150px;
+        padding: 1rem;
+
+        background-color: var(--white);
+        border-radius: 0.5rem;
+
+        span {
+            font-size: 3.5rem;
+            font-weight: 700;
+            line-height: 3.7rem;
+            color: var(--dark);
+        }
+
+        h1 {
+            font-size: 1rem;
+            color: var(--score);
+            text-transform: uppercase;
+            letter-spacing: 0.15rem;
+        }
+    }
+}

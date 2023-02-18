@@ -1,0 +1,16 @@
+section.choice {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 476px;
+    height: 430px;
+
+    background-image: url("../../images/bg-triangle.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .paper {
+        margin-right: 80px;
+    }
+}

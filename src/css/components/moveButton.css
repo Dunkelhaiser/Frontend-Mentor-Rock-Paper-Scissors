@@ -1,0 +1,32 @@
+.moveButton {
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 180px;
+    height: 180px;
+    padding: 2rem;
+
+    border: 24px solid transparent;
+    border-radius: 50%;
+
+    transition: translate 0.3s;
+
+    &:hover {
+        translate: 0 -8px 0;
+    }
+
+    &.scissors {
+        background: linear-gradient(white, white) padding-box, var(--scissors) border-box;
+    }
+
+    &.paper {
+        background: linear-gradient(white, white) padding-box, var(--paper) border-box;
+    }
+
+    &.rock {
+        background: linear-gradient(white, white) padding-box, var(--rock) border-box;
+    }
+}

@@ -1,3 +1,8 @@
 @import "./abstract/variables";
 @import "./base/reset";
 @import "./base/utils";
+
+@import "./components/layout";
+@import "./components/header";
+@import "./components/choice";
+@import "./components/moveButton";

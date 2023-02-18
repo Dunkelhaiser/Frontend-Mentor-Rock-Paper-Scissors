@@ -11,13 +11,13 @@ export default defineConfig({
     css: {
         postcss: {
             plugins: [
-                postcssImport,
-                cssNano,
-                autoprefixer,
+                postcssImport(),
+                cssNano(),
+                autoprefixer(),
                 postcssPresetEnv({ stage: 1 }),
-                postcssNested,
-                postcssAdvancedVariables,
-                postcssExtendRule,
+                postcssNested(),
+                postcssAdvancedVariables(),
+                postcssExtendRule(),
             ],
         },
     },
