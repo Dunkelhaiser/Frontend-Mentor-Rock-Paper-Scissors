@@ -11,7 +11,7 @@ main {
 }
 
 .rules_btn {
-    position: absolute;
+    position: fixed;
     right: 3rem;
     bottom: 3rem;
 
